@@ -1,13 +1,13 @@
 #include <iostream>
 
-main(){
 
+int main(){
 
-std::string name;    
+std::string name;
 
-std::cout<< "What is your name?" << '\n';
-std::cin>> name;
-std::cout<< "I see, so your name is " << name;
+std::cout<<"What is your name?" << '\n';
+std::cin>>name;
+std::cout<<"Hey " << name << "! It's been a while."<<'\n' <<"It's so good to see you again.";
 
 
 
