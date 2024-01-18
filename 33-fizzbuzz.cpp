@@ -1,11 +1,12 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <windows.h>
 
 using namespace std;
 
 void fizzBuzz(int n) {
 
 for(int i = 1; i<=n; i++){
-    
+    Sleep(1000);
 
 if(i==1 || i==2){
     cout<<i<<'\n';
